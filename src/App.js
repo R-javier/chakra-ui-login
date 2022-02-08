@@ -1,6 +1,7 @@
 import { Flex, Input, Button, Heading, Text } from "@chakra-ui/react";
 import { useState } from "react";
 import { Card } from "./components/Card";
+import { Ej } from "./components/Ej";
 function SignUp({ toogleForm }) {
   return (
     <Flex w="400px" p="1rem" border="1px solid #c2c2c2" direction="column">
@@ -56,6 +57,7 @@ function App() {
       )}
 
       {/**/}
+
       <Card />
     </Flex>
   );
